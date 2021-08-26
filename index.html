@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohavan Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+   /* CSS reset*/
+   body{
+       font-style: italic;
+       font-size: 25px;
+       color:black;
+   margin:0px;
+   padding:0px;
+   background:rgb(151, 143, 29);
+   text-decoration: none ;
+   }
+   .left{
+     /*  border: 2px solid red;*/
+       display: inline-block;
+       position: absolute;
+       left: 60px;
+       top:20px;
+   }
+   .left img{
+       width: 65px;
+       font-size: 25px;
+       margin-left: 45px;
+       font-weight: 500;
+    
+   }
+   .mid{
+/* border:2px solid green;*/
+ display:block;
+ width: 46%;
+ margin:20px auto;
+ top: 20px;
+ font-size: 25;
+   }
+   .right{
+ /*border: 1px solid yellow;*/
+ display: inline-block;
+ position:absolute;
+ right: 34px;
+ top: 40px;
+ font-size: 35px;
+
+   }
+   .navbar{
+       display: inline-block;
+   }
+   .navbar li{
+     display: inline-block;
+     font-size: 25px;
+     font-style:initial;
+   }
+   .navbar li a{
+       color:black;
+       text-decoration:none ;
+       padding:31px 8px;
+       font-size:  20px;;
+   }
+   .navbar li a:hover, .navbar li a.active{
+      text-decoration: underline;
+      color: rgb(22, 158, 79);
+   }
+   .btn{
+       margin: 0px 1px;
+       background-color: black;
+       color: rgb(214, 139, 27);
+       padding: 8px  8px;
+       border-radius: 9px;
+       font-size: 15px;
+       cursor: pointer;
+   }
+   .btn:hover{
+       background-color:rgb(71, 10, 168);
+   }
+   .container{
+      /* border: 2px solid green;*/
+       margin: 12px 9px;
+       padding: 4px 14px;
+       width: 33%;
+       border-radius: 12px;
+       font-size: 18px;
+       cursor: pointer;
+       color: black;
+       margin-left: 50px;
+   }
+   .form.group input{
+       text-align: center;
+       display: block;
+       width: 430px;
+       padding: 9px;
+       border-radius: 6px;
+       margin: 9px;
+       font-size: 40px;
+ font-style: oblique;
+   }
+   .container h1{
+       text-align: center;
+   }
+   .container button{
+       display: block;
+       width: 50%;
+       margin: 20px auto ;
+       font-size: 25px;
+       cursor: pointer;
+       color: lawngreen;
+   }
+</style>
+<body>
+    <!--left box for logo--></a>
+    <header class="header">
+       <div class="left">
+           <img src="lg.jpg" alt="">
+           <div> Sohavan Fitness</div>
+    </div> <!--mid box for navigation bar-->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Fitness Center</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+
+    </div> <!--right box for buttons-->
+    <div class="right">
+<button class ="btn">Call Us Now</button>
+<button class ="btn">Email</button>
+    </div>
+    </header>
+    <div class="container">
+        <h1> Join The Best Gym Of Patna</h1>
+        <form action="noaction.php"></form>
+        <div class="form group">
+            <input type="text" name="" placeholder="Enter your name"> </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Age"> </div>
+                <div class="form group">
+                    <input type="text" name="" placeholder="Enter your Gender"> </div>  
+                    <div class="form group">
+                        <input type="text" name="" placeholder="Enter your Locality"> </div>  
+            <button class="btn"> Submit</button>
+    </div>
+</body>
+</html>
